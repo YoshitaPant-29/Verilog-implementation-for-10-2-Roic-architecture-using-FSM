@@ -1,4 +1,4 @@
-# Verilog-implementation-for-10 * 2(Column*Row)-Roic-architecture-using-FSM
+# Verilog-implementation-for-10x2(Column*Row)-Roic-architecture-using-FSM
 
 This project demonstrates a Verilog-based controller for a Readout Integrated Circuit (ROIC) scanning a 2-row by 10-column sensor matrix. It's built using a clean FSM-based architecture with one-hot encoding for selective row-column traversal and simulated using Cadence Xcelium Online Simulator.
 
@@ -14,9 +14,9 @@ FSM States: IDLE → ROW_SELECT → COLUMN_HOLD → INTER_DELAY → NEXT_ROW →
 Goal: Simulate pixel readout logic for a basic ROIC controller
 
 ## Files:
-roic_2x10.v: Core Verilog module
+roic_10x2.v: Core Verilog module
 
-tb_roic_2x10.v: Testbench to simulate row-column traversal and capture output behavior
+tb_roic_10x2.v: Testbench to simulate row-column traversal and capture output behavior
 
 ## Tool Used
 🧰 Cadence Xcelium Online Simulator
@@ -57,7 +57,7 @@ FPGA-based low-level image sensor interface
 
 ## Author
 Developed by Yoshita Pant 
-🔧 Tools Used: Verilog | Cadence Xcelium | GTKWave
+🔧 Tools Used: Verilog | Cadence Xcelium | GTKWave(online simulator)
 📌 Open to improvements, forks, and collaborative extensions!
 
 
